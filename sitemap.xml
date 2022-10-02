@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/</loc>
-<lastmod>2022-10-02T17:42:50-00:00</lastmod>
+<lastmod>2022-10-02T17:47:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -19,7 +19,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/blog/interesting-stuff.html</loc>
-<lastmod>2022-10-02T18:00:00+01:00</lastmod>
+<lastmod>2022-10-02T18:45:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/category/random.html</loc>
-<lastmod>2022-10-02T18:00:00-00:01</lastmod>
+<lastmod>2022-10-02T18:45:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,14 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/tag/tools.html</loc>
-<lastmod>2022-10-02T18:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/tag/random.html</loc>
-<lastmod>2022-10-02T18:00:00-00:01</lastmod>
+<lastmod>2022-10-02T18:45:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,13 +82,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/tag/programming.html</loc>
-<lastmod>2022-09-24T10:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/tag/personal.html</loc>
 <lastmod>2022-09-24T10:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -131,7 +117,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/author/rafapi.html</loc>
-<lastmod>2022-10-02T18:00:00-00:01</lastmod>
+<lastmod>2022-10-02T18:45:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
