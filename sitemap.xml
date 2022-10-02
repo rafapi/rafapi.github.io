@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/</loc>
-<lastmod>2022-10-02T17:29:57-00:00</lastmod>
+<lastmod>2022-10-02T17:32:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -13,13 +13,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://rafapi.github.io/pages/about.html</loc>
 <lastmod>2010-10-10T10:10:10+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/blog/highlighting-text.html</loc>
-<lastmod>2022-11-15T10:20:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,6 +32,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://rafapi.github.io/blog/highlighting-text.html</loc>
+<lastmod>2021-11-15T10:20:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://rafapi.github.io/blog/simplify-article.html</loc>
 <lastmod>2019-10-10T20:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -47,7 +47,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/category/personal.html</loc>
-<lastmod>2022-11-15T10:20:00-00:01</lastmod>
+<lastmod>2022-09-24T10:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -62,27 +62,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://rafapi.github.io/category/tutorial.html</loc>
 <lastmod>2019-10-10T20:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/tag/oh.html</loc>
-<lastmod>2022-11-15T10:20:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/tag/bar.html</loc>
-<lastmod>2022-11-15T10:20:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://rafapi.github.io/tag/yeah.html</loc>
-<lastmod>2022-11-15T10:20:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,6 +102,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://rafapi.github.io/tag/oh.html</loc>
+<lastmod>2021-11-15T10:20:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://rafapi.github.io/tag/bar.html</loc>
+<lastmod>2021-11-15T10:20:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://rafapi.github.io/tag/yeah.html</loc>
+<lastmod>2021-11-15T10:20:00-00:01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://rafapi.github.io/tag/pelican.html</loc>
 <lastmod>2019-10-10T20:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
@@ -138,7 +138,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://rafapi.github.io/author/rafael-pardinas.html</loc>
-<lastmod>2022-11-15T10:20:00-00:01</lastmod>
+<lastmod>2021-11-15T10:20:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
