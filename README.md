@@ -18,16 +18,12 @@ A simple static personal website for GitHub Pages.
 
 2. Copy these files into the repository root.
 
-3. Replace placeholder links in `index.html`:
+3. Review the live links and publication metadata in `index.html`.
 
-   - GitHub profile
-   - Google Scholar
-   - LinkedIn
-   - Contact email or contact page
-   - CUBE-harness link
-   - TapeAgents link
-   - Writing links
-   - PipelineRL paper link
+   The page currently includes public links for GitHub, PipelineRL, TapeAgents,
+   the Google Scholar profile, arXiv author search, selected arXiv papers, and
+   Hugging Face blog posts. Add private or profile-specific links, such as a
+   contact address or LinkedIn profile, only when you are ready to publish them.
 
 4. Commit and push to `main`.
 
