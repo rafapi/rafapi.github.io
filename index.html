@@ -16,7 +16,7 @@
   <main class="page">
     <section class="hero" aria-labelledby="intro-title">
       <div class="hero-copy">
-        <p class="eyebrow">Staff Research Scientist · ServiceNow AI Research</p>
+        <p class="eyebrow">Staff Research Scientist · ServiceNow AI Research · London, UK</p>
         <h1 id="intro-title">Rafael Pardinas</h1>
         <p class="intro">
           My research focuses on scalable reinforcement learning systems for large language models, across algorithms and training systems. I currently work on reasoning, self-improvement, efficient on-policy training at scale, long-horizon credit assignment in multi-turn RLVR, memory-augmented agents that improve through open-ended interaction, and cross-domain generalisation.
@@ -26,6 +26,7 @@
         </p>
         <div class="links" aria-label="Primary links">
           <a href="https://github.com/rafapi">GitHub</a>
+          <a id="email-link" href="#">Email</a>
           <a href="https://github.com/ServiceNow/PipelineRL">PipelineRL</a>
           <a href="https://github.com/ServiceNow/TapeAgents">TapeAgents</a>
           <a class="icon-link scholar-link" href="https://scholar.google.com/citations?user=dZGGN5AAAAAJ&amp;hl=en">
@@ -222,6 +223,15 @@
   </main>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Assemble the email at runtime so the address never appears in the page
+    // source as plaintext or a mailto: link — keeps scrapers/spam bots from harvesting it.
+    (function () {
+      var user = 'rafapi';
+      var domain = 'gmail' + '.' + 'com';
+      var link = document.getElementById('email-link');
+      link.href = 'mailto:' + user + '@' + domain;
+    })();
   </script>
 </body>
 </html>
