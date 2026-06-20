@@ -370,11 +370,31 @@ h3 {
   border-color: var(--accent);
 }
 
-.inline-links,
 .button-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 20px;
+}
+
+.inline-links a {
+  position: relative;
+}
+
+.inline-links a:not(:first-child)::before {
+  content: "·";
+  position: absolute;
+  left: -11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .cards {
