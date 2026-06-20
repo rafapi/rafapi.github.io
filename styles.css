@@ -46,6 +46,57 @@ a {
   margin: 0 auto;
 }
 
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(10, 14, 22, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.topnav-inner {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 56px;
+  padding: 10px 0;
+}
+
+.topnav-name {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.topnav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.topnav-links a {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.topnav-links a:hover {
+  color: var(--accent-ink);
+}
+
+.section {
+  scroll-margin-top: 76px;
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -283,6 +334,18 @@ h3 {
 .card p {
   margin-bottom: 16px;
   color: #aebacc;
+}
+
+.paper-authors {
+  margin: 0 0 14px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.author-self {
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .paper-meta,
@@ -594,6 +657,16 @@ h3 {
 
   .card-link {
     min-height: 38px;
+  }
+
+  .topnav-name {
+    display: none;
+  }
+
+  .topnav-links {
+    flex: 1;
+    justify-content: space-between;
+    gap: 12px;
   }
 
   .writing-list a,

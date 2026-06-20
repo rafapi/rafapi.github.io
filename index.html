@@ -13,7 +13,19 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="page">
+  <header class="topnav">
+    <div class="topnav-inner">
+      <a class="topnav-name" href="#top">Rafael Pardinas</a>
+      <nav class="topnav-links" aria-label="Section navigation">
+        <a href="#news">News</a>
+        <a href="#publications">Papers</a>
+        <a href="#code">Code</a>
+        <a href="#blog">Blog</a>
+        <a href="#mentorship">Mentorship</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page" id="top">
     <section class="hero" aria-labelledby="intro-title">
       <div class="hero-copy">
         <p class="eyebrow">Research Scientist · London, UK</p>
@@ -96,8 +108,9 @@
       </div>
       <div class="paper-list">
         <article class="paper">
-          <div class="paper-meta">2026 · RL post-training · First author</div>
+          <div class="paper-meta">COLM 2026 · RL post-training</div>
           <h3>Apriel-Reasoner: RL Post-Training for General-Purpose and Efficient Reasoning</h3>
+          <p class="paper-authors"><strong class="author-self">Rafael Pardinas</strong>, Ehsan Kamalloo, David Vazquez, Alexandre Drouin</p>
           <p>
             Reproducible multi-domain RLVR recipe for a 15B open-weight model, with adaptive domain sampling and a difficulty-aware length penalty for stronger, shorter reasoning.
           </p>
@@ -105,8 +118,9 @@
         </article>
 
         <article class="paper featured-paper">
-          <div class="paper-meta">2025 · RL systems · Open source</div>
+          <div class="paper-meta">TMLR 2025 · RL systems · Open source</div>
           <h3>PipelineRL: Faster On-policy Reinforcement Learning for Long Sequence Generation</h3>
+          <p class="paper-authors">Alexandre Piché, <strong class="author-self">Rafael Pardinas</strong>, Ehsan Kamalloo, Xiaoyin Chen, Dzmitry Bahdanau</p>
           <p>
             Asynchronous RL infrastructure with in-flight weight updates for fast long-sequence generation while keeping training data near on-policy.
           </p>
@@ -114,8 +128,9 @@
         </article>
 
         <article class="paper">
-          <div class="paper-meta">2026 · Deep research agents · Privacy</div>
+          <div class="paper-meta">EMNLP 2026 · Deep research agents</div>
           <h3>MosaicLeaks: Privacy Risks in Querying-in-the-Open for Deep Research Agents</h3>
+          <p class="paper-authors">Alexander Gurung, Spandana Gella, Alexandre Drouin, Issam H. Laradji, Perouz Taslakian, <strong class="author-self">Rafael Pardinas</strong></p>
           <p>
             Benchmark and RL framework for agents that must balance task success with privacy leakage from external research queries over multi-hop local and web evidence.
           </p>
@@ -123,8 +138,9 @@
         </article>
 
         <article class="paper">
-          <div class="paper-meta">2026 · Efficient LLM serving · Apriel</div>
+          <div class="paper-meta">NeurIPS 2026 · Efficient LLM serving</div>
           <h3>Super Apriel: One Checkpoint, Many Speeds</h3>
+          <p class="paper-authors">Oleksiy Ostapenko, Raymond Li, Torsten Scholak, Aman Tiwari, Denis Kocetkov, Joel Lamy Poirier, Kelechi Ogueji, <strong class="author-self">Rafael Pardinas</strong>, Sathwik Tejaswi Madhusudhan, Shruthan Radhakrishna</p>
           <p>
             A 15B supernet that supports multiple decoding speed-quality presets from one checkpoint, with released models, serving code, and placement tooling.
           </p>
@@ -132,8 +148,9 @@
         </article>
 
         <article class="paper">
-          <div class="paper-meta">2024 · Agent framework · Open source</div>
+          <div class="paper-meta">Preprint 2024 · Agent framework · Open source</div>
           <h3>TapeAgents: a Holistic Framework for Agent Development and Optimization</h3>
+          <p class="paper-authors">Dzmitry Bahdanau, Nicolas Gontier, Gabriel Huang, Ehsan Kamalloo, <strong class="author-self">Rafael Pardinas</strong>, Alex Piché, Torsten Scholak, Oleh Shliazhko</p>
           <p>
             Tape-centered agent design for resumable state, debugging, evaluation, fine-tuning, prompt tuning, and reusable agent traces.
           </p>
@@ -155,7 +172,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="code">
       <div class="section-heading">
         <p class="section-kicker">Research systems</p>
         <h2>Code and infrastructure</h2>
@@ -198,7 +215,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="blog">
       <div class="section-heading">
         <p class="section-kicker">Blog posts</p>
         <h2>Blog posts</h2>
