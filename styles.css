@@ -1,16 +1,17 @@
 :root {
-  --bg: #0a0e16;
-  --surface: #111827;
-  --surface-2: #0e1521;
-  --ink: #e8eef7;
-  --muted: #8a97a8;
-  --line: #1d2738;
-  --line-strong: #2a3650;
-  --accent: #38bdf8;
-  --accent-ink: #7dd3fc;
-  --accent-dim: rgba(56, 189, 248, 0.14);
-  --warm: #a78bfa;
-  --soft-accent: rgba(56, 189, 248, 0.06);
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --ink: #101a2b;
+  --body: #334155;
+  --muted: #5a6b7e;
+  --line: #e3e8ef;
+  --line-strong: #cbd5e1;
+  --accent: #0ea5e9;
+  --accent-ink: #0369a1;
+  --accent-dim: rgba(14, 165, 233, 0.16);
+  --warm: #7c3aed;
+  --soft-accent: rgba(14, 165, 233, 0.07);
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
@@ -29,10 +30,10 @@ body {
   line-height: 1.55;
   background-color: var(--bg);
   background-image:
-    radial-gradient(900px circle at 12% -12%, rgba(56, 189, 248, 0.12), transparent 55%),
-    radial-gradient(760px circle at 100% 0%, rgba(167, 139, 250, 0.08), transparent 52%),
-    linear-gradient(rgba(148, 163, 184, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+    radial-gradient(900px circle at 12% -12%, rgba(14, 165, 233, 0.10), transparent 55%),
+    radial-gradient(760px circle at 100% 0%, rgba(124, 58, 237, 0.06), transparent 52%),
+    linear-gradient(rgba(100, 116, 139, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100, 116, 139, 0.07) 1px, transparent 1px);
   background-size: auto, auto, 38px 38px, 38px 38px;
   background-attachment: fixed;
 }
@@ -50,7 +51,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(10, 14, 22, 0.72);
+  background: rgba(247, 249, 252, 0.82);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -178,7 +179,7 @@ h3 {
 .intro,
 .intent {
   max-width: 860px;
-  color: #b4c0d0;
+  color: var(--body);
 }
 
 .intro {
@@ -199,8 +200,8 @@ h3 {
   border: 1px solid var(--line-strong);
   border-radius: 10px;
   object-fit: cover;
-  object-position: center 36%;
-  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.12), 0 24px 60px rgba(0, 0, 0, 0.55);
+  object-position: center 30%;
+  box-shadow: 0 0 0 1px rgba(14, 165, 233, 0.18), 0 18px 44px rgba(15, 23, 42, 0.14);
 }
 
 .card-link {
@@ -220,7 +221,7 @@ h3 {
 .card-link:hover {
   border-color: var(--accent);
   color: var(--accent-ink);
-  box-shadow: 0 0 0 1px var(--accent-dim), 0 6px 20px rgba(56, 189, 248, 0.12);
+  box-shadow: 0 0 0 1px var(--accent-dim), 0 6px 20px rgba(14, 165, 233, 0.15);
   transform: translateY(-1px);
 }
 
@@ -301,13 +302,13 @@ h3 {
 .card:hover {
   border-color: var(--line-strong);
   transform: translateY(-2px);
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
 }
 
 .featured-paper,
 .featured-card {
   background: var(--soft-accent);
-  border-color: rgba(56, 189, 248, 0.32);
+  border-color: rgba(14, 165, 233, 0.40);
 }
 
 .featured-paper::before,
@@ -327,13 +328,13 @@ h3 {
 .card p,
 .split p,
 .clean-list {
-  color: #aebaccf2;
+  color: var(--body);
 }
 
 .paper p,
 .card p {
   margin-bottom: 16px;
-  color: #aebacc;
+  color: var(--body);
 }
 
 .paper-authors {
@@ -477,7 +478,7 @@ h3 {
 .mentor-work {
   margin: 0;
   font-size: 15px;
-  color: #aebacc;
+  color: var(--body);
 }
 
 .mentor-tag {
@@ -521,7 +522,7 @@ h3 {
 }
 
 .news-body {
-  color: #aebacc;
+  color: var(--body);
 }
 
 .news-body strong {
@@ -615,7 +616,7 @@ h3 {
 }
 
 .footer-socials a:hover {
-  color: #d4ecff;
+  color: var(--accent-ink);
 }
 
 .footer-socials a:hover svg {
